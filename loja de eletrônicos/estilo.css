@@ -1,0 +1,22 @@
+#produtos, #resto{
+    display: flex;
+    justify-content: space-around;
+}
+.eletronicos, .sobra{
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+}
+#rest1, #rest2, #rest3, #rest4, #rest5{
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+    border: solid gray; 2px;
+    text-align: center;
+}
+ body{
+    background-image: url(eletronicos.png);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}

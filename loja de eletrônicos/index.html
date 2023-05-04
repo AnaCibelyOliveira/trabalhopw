@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilo.css">
+    <title> Loja de Eletrônicos </title>
+</head>
+<body>
+    <header><i><h2> LOJA DE ELETRÔNICOS </h2></i></header>
+    <hr>
+    <section>
+        <form id="estoque">
+            <p><h3> Quantidade de produtos em estoque e unidades vendidas: </h3></p>
+            <div id="produtos">
+                <div class="eletronicos">
+                    <p><h4> VIDEOGAMES </h4></p>
+                    <p> Estoque: <input type="number" id="prod1"> </p>
+                    <p> Vendidos: <input type="number" id="vend1"> </p>
+                </div>
+                <div class="eletronicos">
+                    <p><h4> PROJETORES </h4></p>
+                    <p> Estoque: <input type="number" id="prod2"> </p>
+                    <p> Vendidos: <input type="number" id="vend2"> </p>
+                </div>
+                <div class="eletronicos">
+                    <p><h4> MOUSES </h4></p>
+                    <p> Estoque: <input type="number" id="prod3"> </p>
+                    <p> Vendidos: <input type="number" id="vend3"> </p>
+                </div>
+                <div class="eletronicos">
+                    <p><h4> SMARTPHONES </h4></p>
+                    <p> Estoque: <input type="number" id="prod4"> </p>
+                    <p> Vendidos: <input type="number" id="vend4"> </p>
+                </div>
+                <div class="eletronicos">
+                    <p><h4> CAIXAS DE SOM </h4></p>
+                    <p> Estoque: <input type="number" id="prod5"> </p>
+                    <p> Vendidos: <input type="number" id="vend5"> </p>
+                </div>
+            </div>
+            <button type="button" onclick="executar()"> Selecionar </button>
+            <p><h3> Quantidade restante de cada produto: </h3></p>
+            <div id="resto">
+                <div class="sobra"> 
+                    <p> VIDEOGAMES: <div id="rest1">  </div></p>
+                </div>
+                <div class="sobra">
+                    <p> PROJETORES: <div id="rest2">  </div> </p>
+                </div>
+                <div class="sobra">
+                    <p> MOUSES: <div id="rest3">  </div> </p>
+                </div>
+                <div class="sobra">
+                    <p> SMARTPHONES: <div id="rest4">  </div> </p>
+                </div>
+                <div class="sobra">
+                    <p> CAIXAS DE SOM: <div id="rest5">  </div> </p>
+                </div>
+            </div>
+            </p>
+        </form>
+    </section>
+    <footer></footer>
+    <script src="script.js"></script>
+</body>
+</html>

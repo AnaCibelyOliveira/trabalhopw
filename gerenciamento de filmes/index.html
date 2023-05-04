@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilo.css">
+    <title> Filmes </title>
+</head>
+<body>
+    <header><i><h2> GERENCIAMENTO DE FILMES </h2></i></header>
+    <hr>
+    <section>
+        <h3> Informações gerais </h3>
+        <div id="gerais">
+            <p> Título do filme: <input type="text" id="titul"> </p>
+            <p> Ano de lançamento: <input type="number" id="ano"> </p>
+            <p> Diretor: <input type="text" id="dire"> </p>
+            <p> Gênero: <input type="text" id="gene"> </p>
+        </div>
+        <h3> Elenco do filme (Ator ou atriz)</h3>
+        <div id="elenco">
+            <div class="pessoas">
+                <p> Nome: <input type="text" id="pes1"> </p>
+                <p> Papel no filme: <input type="text" id="papel1"> </p>
+            </div>
+            <div class="pessoas">
+                <p> Nome: <input type="text" id="pes2"> </p>
+                <p> Papel no filme: <input type="text" id="papel2"> </p>
+            </div>
+            <div class="pessoas">
+                <p> Nome: <input type="text" id="pes3"> </p>
+                <p> Papel no filme: <input type="text" id="papel3"> </p>
+            </div>
+        </div>
+        <button type="button" onclick="imprimir()"> Selecionar </button> 
+        <h3> Dados do filme: </h3>
+        <div id="inform">  </div>
+    </section>
+    <footer></footer>
+    <script src="script.js"></script>
+</body>
+</html>
